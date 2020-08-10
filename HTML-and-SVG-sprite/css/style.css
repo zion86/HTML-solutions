@@ -12,6 +12,9 @@
   display: flex;
 }
 
+.footer-menu__item:not(:last-child) {
+  margin-right: 10px;
+}
 .footer-menu__item {
   width: 50px;
   height: 50px;
@@ -21,13 +24,12 @@
   transition: 0.3s;
 }
 .footer-menu__item:hover {
-  fill: blueviolet;
   border-color: blueviolet;
   transform: scale(1.2);
 }
-.footer-menu__item:not(:last-child) {
-  margin-right: 10px;
-}
+.footer-menu__item:hover .footer-menu__icon {
+  fill: blueviolet;
+} 
 
 .footer-menu__link {
   width: 100%;
