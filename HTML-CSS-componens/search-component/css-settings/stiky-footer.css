@@ -1,0 +1,14 @@
+/* FOOTER TO BOTTOM */
+html,
+body {
+  height: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
