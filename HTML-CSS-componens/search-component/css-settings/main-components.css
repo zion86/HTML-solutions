@@ -1,12 +1,7 @@
 /* STYLES CSS */
 
-:root {
-  font-size: 16px;
-}
-
 body {
   font-family: var(--f-main-font), sans-serif;
-  font-size: 1rem;
   color: var(--c-black-v1);
   background-color: var(--c-white-v1);
 }
