@@ -1,0 +1,66 @@
+body {
+  background-color: lightgrey;
+}
+
+/* RESET DEFAULT STYLES */
+button {
+  outline: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper > * + * {
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.5em 1em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: hsl(285, 60%, 60%);
+  background-color:hsl(285, 50%, 80%);
+  border-radius: 0.4em;
+}
+.btn > * + * {
+  margin-left: 0.2em;
+}
+
+.btn__ico {
+  width: 1em;
+  min-width: 1em;
+  height: 1em;
+}
+
+
+.btn--large {
+  font-size: 1.2rem;
+}
+.btn--small {
+  font-size: 0.9rem;
+}
+
+
+.btn--active {
+  color: hsl(285, 50%, 80%);
+  background-color: hsl(285, 60%, 60%);
+}
+.btn--disable {
+  color: hsl(285, 50%, 70%);
+  background-color: hsl(285, 50%, 90%);
+}
