@@ -1,0 +1,18 @@
+.card {
+  overflow: hidden;
+}
+
+.card__link {
+  display: inline-flex;
+  padding: 20px;
+  flex-direction: column;
+  background-color: tomato;
+  text-decoration: none;
+}
+
+.card__title {
+  text-align: center;
+}
+
+/* .card__desc {
+} */

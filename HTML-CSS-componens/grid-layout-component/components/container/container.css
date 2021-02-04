@@ -1,0 +1,8 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: var(--gap);
+  max-width: 1000px;
+  /* box-sizing: content-box; */
+  background-color: aquamarine;
+}
