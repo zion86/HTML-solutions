@@ -8,4 +8,5 @@
 
 ### HTML CSS componets
 - [search-input responsive component](https://zion86.github.io/HTML-solutions/HTML-CSS-componens/search-component/index.html)
-- [button component](https://zion86.github.io/HTML-solutions/HTML-CSS-componens/button/index.html)
+- [button component](https://zion86.github.io/HTML-solutions/HTML-CSS-componens/button-component/index.html)
+)
