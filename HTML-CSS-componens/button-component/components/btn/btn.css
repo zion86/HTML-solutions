@@ -23,7 +23,7 @@ button {
   font-family: sans-serif;
   font-weight: 700;
   color: hsl(285, 60%, 60%);
-  background-color:hsl(285, 50%, 80%);
+  background-color: hsl(285, 50%, 80%);
   border-radius: 0.4em;
   /* animation */
   transition: 0.3s transform;
