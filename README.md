@@ -8,6 +8,9 @@
 
 ### HTML font preload & using <picture> tag
 [font preload](https://zion86.github.io/HTML-solutions/preload-custom-font)
+  
+### HTML tag <picture>
+[html tag picture](https://zion86.github.io/HTML-solutions/html-tag-picture)
 
 ### HTML CSS componets
 - [search-input responsive component](https://zion86.github.io/HTML-solutions/HTML-CSS-componens/search-component/index.html)
