@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>picture tag</title>
+</head>
+
+<body>
+
+  <!--           (   mob       sm        md        lg        xl         xxl   ) -->
+  <!-- container ( <576px   >=576px   >=768px   >=992px   >=1200px   >=1400px ) -->
+  <!-- content   (  100%     540px     720px     960px     1140px     1320px  ) -->
+  <div class="container">
+
+    <!-- Mobile first ( mobile => tablet => desktop ) -->
+    <picture>
+      <source
+        media="(min-width: 992px)"
+        srcset="img/audi-r8-2021-xl@1x.jpg 1x,
+                img/audi-r8-2021-xl@2x.jpg 2x">
+      <source
+        media="(min-width: 768px)"
+        srcset="img/audi-r8-2021-lg@1x.jpg 1x,
+                img/audi-r8-2021-lg@2x.jpg 2x">
+      <source
+        media="(min-width: 576px)"
+        srcset="img/audi-r8-2021-md@1x.jpg 1x
+                img/audi-r8-2021-md@2x.jpg 2x">
+      <img
+        src="img/audi-r8-2021-mob@1x.jpg"
+        srcset="img/audi-r8-2021-mob@2x.jpg 2x"
+        alt="audi r8 2021">
+    </picture>
+
+  </div>
+
+</body>
+
+</html>
